@@ -1,0 +1,65 @@
+.navbar {
+	background-color: black;
+}
+
+.navbar-brand{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 25px;
+}
+.navbar-default .navbar-brand {
+    color: white;
+} 
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: grey;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-bottom {
+	margin-bottom: 0;
+}
+
+
+
+.container {
+	margin-top: 7%;
+}
+
+.bio-photo {
+	height: 480px;
+}
+
+.icons {
+	margin-top: 50px;
+	margin-left: 100px;
+	padding-left: 5px;
+	font-size: 30px;
+	color: black;
+}
+
+@media screen and (max-width: 320px) {
+	.bio-photo {
+		height: 350px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.icons-row {
+		margin-left: 60px;
+	}
+	.icons {
+		margin-left: 5px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width: 768px) {
+	.icons-row {
+		margin-left: 100px;
+	}
+	.bio-photo {
+		margin-left: 250px;
+		margin-bottom: 30px;
+		height: 300px;
+	}
+}

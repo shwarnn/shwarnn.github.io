@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size:17px;
+  color:white;
+  line-height:1.6;
+}
+
+#showcase{
+  background-image: url('photos/raf-1.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+  text-decoration: none;
+  color: black;
+
+}
+
+#showcase h1:hover {
+  color:white;
+  font-size: 51 px;
+}
+
+#showcase p{
+  font-size:20px;
+  color: black;
+}
+
+#showcase .row {
+  margin: 20px auto;
+  padding: auto 5px;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#showcase .icons {
+  font-size: 30px;
+  color: black
+}
+#showcase .icons:hover{
+  background:#926239;
+  color:white;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 425px) {
+  #showcase h1 {
+    font-size: 30px;
+  }
+
+  #showcase p {
+    font-size: 15px;
+  }
+
+  #showcase .icons {
+    font-size: 20px;
+  }
+
+  hr {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #showcase h1 {
+    font-size: 40px;
+  }
+}
